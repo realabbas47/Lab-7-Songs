@@ -1,0 +1,1 @@
+SELECT AVG(songs.energy) AS AverageEnergy_Drake From songs JOIN artists ON Songs.artist_id = artists.id WHERE artists.name = 'Drake';
